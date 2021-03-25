@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+  }
+  .logo{
+    text-align: center;
+    margin-top: 80px;
+  }
+  .logo img{
+    width: 165px;
+    height: 58px;
+  }
+  .menu{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .menu span{
+    padding: 10px;
+  }
+  .menu a{
+    font-size: 16px;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #58595B;
+  }
+  .menu .here{
+    font-weight: bold;
+  }
+  .img{
+    text-align: center;
+  }
+  .img img{
+    width: 90%;
+  }
+  
