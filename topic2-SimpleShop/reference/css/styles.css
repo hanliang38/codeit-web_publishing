@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    color: #545454;
+}
+
+body{
+    margin: 0;
+    min-width: 992px;
+    font-family: "Hevetica";
+}
+/* navbar */
+.navbar{
+   height: 60px;
+    padding: 0px 30px;
+}
+/* 로고 가운데 이동 */
+.navbar #logo{
+    line-height: 60px;
+}
+.navbar #logo img{
+    vertical-align: middle;
+}
+/* 메뉴바 */
+.navbar #menu{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar #menu li{
+    float: left;
+    margin-left: 50px;
+    line-height: 60px;
+}
+.navbar #menu li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* hero header */
+.hero-header{
+    height: 450px;
+    background-image: url("../images/hero_header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* products */
+.products h3{
+    font-size: 24px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.product-list{
+    width: 735px;
+    margin: 0 auto;
+}
+
+.product{
+    width: 225px;
+    text-align: center;
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin: 0px 10px 80px;
+}
+
+.product-name{
+    margin: 20px 0px 4px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    margin: 40px auto 80px;
+}
+
+.footer a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
